@@ -14,7 +14,7 @@ This README file will guide you through setting up and running the tests.
 
 open git bash on the project directory then run command 
 ```
-git clone https://github.com/Heba13/API-Swagger-UI.git
+git clone https://github.com/Heba13/API-Api-UI.git
 ```
 Run "ChargingRunner" file in path "src/test/java/api/test/ChargingRunner.java"
 

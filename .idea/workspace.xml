@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ffd7e780-6b76-4aab-8403-69e23a45e96c" name="Changes" comment="api">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/endpoint/BaseAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/endpoint/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/test/Users.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/test/UsersRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/test/UsersStepdefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/schema.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2fXd9ajbcbNAMar8GJBvMs4GauK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/mobile/orangeHr/API&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.CommitDialog&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\mobile\orangeHr\API\stripe\src\test\java\stripe\test" />
+      <recent name="D:\mobile\latest\Strip\src\test" />
+      <recent name="D:\mobile\latest\Strip\src\test\java\api_Tests\api.utilities" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\mobile\SwaggerUI\Swagger\.github\workflows" />
+      <recent name="D:\mobile\orangeHr\API\stripe\src\test\resources" />
+      <recent name="D:\mobile\orangeHr\API\stripe\src\test\java\stripe\test" />
+      <recent name="D:\mobile\orangeHr\API\stripe\target" />
+      <recent name="D:\mobile\latest\Strip\target\test-classes" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="api_Tests.test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.UsersRunner (1)">
+    <configuration name="Feature: Users" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/api/test/Users.feature" />
+      <option name="GLUE" value="api.test" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="CY" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: Users" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: check that API successfully create new users." type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/api/test/Users.feature" />
+      <option name="GLUE" value="api.test" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="CY" />
+      <option name="NAME_FILTER" value="^check that API successfully create new users\.$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^check that API successfully create new users\.$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: check that API successfully create new users." />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: check that API successfully returns a list of users." type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/api/test/Users.feature" />
+      <option name="GLUE" value="api.test" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="CY" />
+      <option name="NAME_FILTER" value="^check that API successfully returns a list of users\.$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^check that API successfully returns a list of users\.$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: check that API successfully returns a list of users." />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: check that API successfully update user." type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/api/test/Users.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="CY" />
+      <option name="NAME_FILTER" value="^check that API successfully update user\.$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^check that API successfully update user\.$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: check that API successfully update user." />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsersRunner (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CY" />
+      <option name="PACKAGE_NAME" value="api.test" />
+      <option name="MAIN_CLASS_NAME" value="api.test.UsersRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Cucumber Java.Feature: Users" />
+      <item itemvalue="Cucumber Java.Scenario: check that API successfully create new users." />
+      <item itemvalue="Cucumber Java.Scenario: check that API successfully returns a list of users." />
+      <item itemvalue="Cucumber Java.Scenario: check that API successfully update user." />
+      <item itemvalue="TestNG.UsersRunner (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.UsersRunner (1)" />
+        <item itemvalue="Cucumber Java.Scenario: check that API successfully create new users." />
+        <item itemvalue="Cucumber Java.Scenario: check that API successfully update user." />
+        <item itemvalue="Cucumber Java.Scenario: check that API successfully returns a list of users." />
+        <item itemvalue="Cucumber Java.Feature: Users" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ffd7e780-6b76-4aab-8403-69e23a45e96c" name="Changes" comment="" />
+      <created>1713951208421</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713951208421</updated>
+    </task>
+    <task id="LOCAL-00001" summary="schema path">
+      <created>1714298344563</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714298344563</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Read Me">
+      <created>1714300703929</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714300703929</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Read Me">
+      <created>1714301313975</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714301313975</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Read Me">
+      <created>1714305823500</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714305823501</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Read Me">
+      <created>1714307833845</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714307833845</updated>
+    </task>
+    <task id="LOCAL-00006" summary="modify">
+      <created>1714314611403</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714314611403</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update">
+      <created>1714498255161</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714498255161</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update">
+      <created>1714498303048</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1714498303048</updated>
+    </task>
+    <task id="LOCAL-00009" summary="update">
+      <created>1729539015582</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1729539015582</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update">
+      <created>1729539305207</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1729539305207</updated>
+    </task>
+    <task id="LOCAL-00011" summary="update">
+      <created>1729668697089</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1729668697089</updated>
+    </task>
+    <task id="LOCAL-00012" summary="update">
+      <created>1729764559614</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1729764559614</updated>
+    </task>
+    <task id="LOCAL-00013" summary="update">
+      <created>1729931327946</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1729931327946</updated>
+    </task>
+    <task id="LOCAL-00014" summary="update">
+      <created>1729932954125</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1729932954125</updated>
+    </task>
+    <task id="LOCAL-00015" summary="update">
+      <created>1729934710915</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1729934710915</updated>
+    </task>
+    <task id="LOCAL-00016" summary="update">
+      <created>1729934830147</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1729934830147</updated>
+    </task>
+    <task id="LOCAL-00017" summary="update">
+      <created>1729935098405</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1729935098405</updated>
+    </task>
+    <task id="LOCAL-00018" summary="update">
+      <created>1729935169008</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1729935169008</updated>
+    </task>
+    <task id="LOCAL-00019" summary="update">
+      <created>1729935414992</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1729935414992</updated>
+    </task>
+    <task id="LOCAL-00020" summary="update">
+      <created>1729935747432</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1729935747432</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Action">
+      <created>1729935996586</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1729935996586</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Action">
+      <created>1729936127706</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1729936127706</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Action">
+      <created>1729936200738</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1729936200738</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Action">
+      <created>1729937061306</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1729937061306</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Action">
+      <created>1729937339434</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1729937339434</updated>
+    </task>
+    <task id="LOCAL-00026" summary="api">
+      <created>1729943113875</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1729943113875</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="schema path" />
+    <MESSAGE value="Read Me" />
+    <MESSAGE value="modify" />
+    <MESSAGE value="update" />
+    <MESSAGE value="Action" />
+    <MESSAGE value="api" />
+    <option name="LAST_COMMIT_MESSAGE" value="api" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NoClassDefFoundError" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalArgumentException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="java-exception" />
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
